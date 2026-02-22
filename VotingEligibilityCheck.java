@@ -11,6 +11,7 @@ public class VotingEligibilityCheck{
         }else{
             System.out.println("Wait till 18");
         }
+        sc.close();
 
     }
 }
