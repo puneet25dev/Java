@@ -5,9 +5,7 @@ public class CheckPrime {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number to check whether is it prime or not");
         int num = sc.nextInt();
-        if (num == 2) {
-            System.out.println("Number is Prime");
-        }
+        
         if (num < 0) {
             System.out.println("Enter positive num");
         }
