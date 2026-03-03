@@ -20,6 +20,7 @@ public class NumberPyramid {
             }
             System.out.println();
         }
+        sc.close();
 
     }
 }
