@@ -1,3 +1,4 @@
+package Practice;
 // Program to calculate factorial
 
 import java.util.*;

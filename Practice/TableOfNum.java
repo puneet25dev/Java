@@ -1,3 +1,4 @@
+package Practice;
 import java.util.*;
 public class TableOfNum {
     public static void main(String args[]){

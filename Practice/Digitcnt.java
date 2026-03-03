@@ -1,3 +1,4 @@
+package Practice;
 import java.math.BigInteger;
 import java.util.*;
 public class Digitcnt{

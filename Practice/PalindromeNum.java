@@ -1,3 +1,4 @@
+package Practice;
 import java.util.*;
 public class PalindromeNum{
     public static void main(String args[]){
