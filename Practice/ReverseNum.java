@@ -14,16 +14,16 @@ public class ReverseNum {
 
         while(temp>0){
 
-            int rem=temp%10;
+            int rem=temp%10;    
             ans=ans*10+rem;
             temp=temp/10;
 
         }
         if(num<0){
-        System.out.println(num + "->" + (-ans));
+        System.out.println(num + " -> " + (-ans));
 
         }else{
-        System.out.println(num + "->" + ans);
+        System.out.println(num + " -> " + ans);
 
         }
         sc.close();
