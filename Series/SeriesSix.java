@@ -1,28 +1,24 @@
 package Series;
-
-public class SeriesSix {
+public class SeriesSix{
     public static void main(String[] args) {
-        int a = 0;
-        int b = 2;
-        for (int i = 1; i < 12; i++) {
-            if (i % 2 == 0) {
+        System.out.println("hello !");
+        int n=2;
+        int m=6;
+        int diff=3;
 
-                    System.out.print("*");
-                    System.out.print(",");
-
-                
-            } else {
-                int c = a + b;
-                a = c;
-                b = c;
-                System.out.print(c);
-                if (i < 11) {
-                    System.out.print(",");
-                }
-
+        for(int i=1;i<11;i++){
+            if(i%2!=0){
+                System.out.print(n);
+                n=n+n;
+            }else{
+                System.out.print(m);
+                m=m+diff;
+                diff++;
             }
-
+            if(i<10){
+                System.out.print(",");
+            }
         }
-
+        
     }
 }
